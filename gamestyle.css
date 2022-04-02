@@ -33,7 +33,7 @@ body {margin: 20px;}
 }
 
 .topbox {
-    background-color: black;
+    background-color: gray;
     color: #ffffff;
     padding: 15px;
 }
@@ -47,15 +47,15 @@ body {margin: 20px;}
   }
 
 .myText {
-    background-color: black;
-    color: white;
+    background-color: lightgreen;
+    color: black;
     padding: 15px 15px 15px 15px;  
     margin: 0px 20px 20px 0px;
     text-align: center;
 }
 
 .myCode {
-    background-color: orange;
+    background-color: lightseagreen;
     color: black;
     padding: 15px 15px 15px 15px;  
     margin: 20px 20px 20px;
