@@ -1,0 +1,106 @@
+/* Example CSS style sheet */
+
+body {margin: 20px;}
+
+* {
+    box-sizing: border-box;
+  }
+  
+.responsive {
+  width: 25%;
+  height: auto;
+}
+
+
+.gifContainer {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 50%; /* 16:9 Aspect Ratio */
+  /* padding-left: 20px;
+  padding-right: 20px; */
+}
+
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.topbox {
+    background-color: black;
+    color: #ffffff;
+    padding: 15px;
+}
+
+.myImg {
+    width: 100%;
+    height:auto;
+    border-radius: 0;
+    vertical-align:middle;
+    border:solid white;
+  }
+
+.myText {
+    background-color: black;
+    color: white;
+    padding: 15px 15px 15px 15px;  
+    margin: 0px 20px 20px 0px;
+    text-align: center;
+}
+
+.myCode {
+    background-color: orange;
+    color: black;
+    padding: 15px 15px 15px 15px;  
+    margin: 20px 20px 20px;
+  }
+
+
+  .mybutton{
+    padding: 20px;  
+    margin: 20px;
+  }
+
+/* Float three columns side by side */
+.column {
+    float: left;
+    width: 33%;
+    padding: 0 10px;
+  }
+ 
+/* Settings for Card */
+.card {
+    padding: 16px;
+    text-align: center;
+    background-color: black;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 20px 20px 0 grey, 0 20px 20px 0 grey;
+  }
+
+.card:hover {
+    transform: scale(1.05, 1.05);
+  }
+
+
+  /* unvisited link */
+  a:link {
+    color:white;
+  }
+  /* visited link */
+  a:visited {
+    color:white;
+  }
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  /* selected link */
+  a:active {
+    color: skyblue;
+  }

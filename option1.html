@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="gamestyle.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+
+<body>
+    <div class="myText" style="text-align: left;padding:20px; margin:20px">
+        Look at the following code and then answer the question below:
+    </div>
+
+    <pre class="myCode">
+    import java.util.Scanner;
+    public class MyClass {
+        public static void main(String args[]) {
+                
+            Scanner sc = new Scanner(System.in);
+            System.out.print("Enter any character to start and x to stop: " );
+            String userInput = sc.nextLine().toLowerCase();
+
+            while(!userInput.equals("x")){
+                System.out.print("Enter a word: " );
+                String name = sc.nextLine();
+
+                if(name.length() < 5){
+                    System.out.println("That word is so short! " );
+                }else{
+                    System.out.println("That is too wordy! " );
+                }
+
+                System.out.print("Enter any character to start and x to stop: " );
+                userInput = sc.nextLine().toLowerCase();
+            }
+
+            System.out.print("Done!" );
+        }
+    }
+    </pre>
+
+
+    <div class="myText" style="text-align: left;padding:20px; margin:20px">
+        <Strong>If the user enters the following:</Strong>
+        <p>s</p> <br>
+        <p>hello</p> <br>
+        <br> What value is the value of <Strong>name </Strong>?
+    </div>
+
+    <a href="incorrect.html" class="w3-btn w3-black" style="padding:20px;margin:20px">Answer 1: 5</a>
+    <a href="incorrect.html" class="w3-btn w3-black" style="padding:20px;margin:20px">Answer 2: s</a>
+    <a href="correct.html" class="w3-btn w3-black" style="padding:20px;margin:20px">Answer 3: hello</a>
+    <a href="incorrect.html" class="w3-btn w3-black" style="padding:20px;margin:20px">Answer 4: None of the above</a>
+
+</BODY>
+
+</html>
